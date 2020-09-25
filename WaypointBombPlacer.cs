@@ -23,7 +23,7 @@ public class WaypointBombPlacer : MonoBehaviour
             currentCol = other.transform;
         }
     }
-
+    
     public void PlaceBombWithWaypoint()
     {
         if (currentCol == null) { Debug.Log("no col"); return; }
